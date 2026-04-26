@@ -1,0 +1,7 @@
+{
+  "cve_id": "CVE-2026-9999",
+  "description": "Insecure deserialization vulnerability in pickle.loads allows Remote Code Execution (RCE). The vulnerability is triggered when user-supplied data is passed to pickle.loads without prior sanitization.",
+  "vulnerable_functions": ["pickle.loads"],
+  "attack_type": "RCE",
+  "keywords": ["pickle", "deserialization", "loads", "RCE"]
+}
